@@ -12,8 +12,7 @@ Tminus = r'sfx\negative.wav'
 StateSfx1 = r'sfx\command-101soundboards.mp3'
 StateSfx2 = r'sfx\acknowledged-101soundboards.mp3'
 
-laser = r'sfx\laser-101soundboards.mp3'
-activated = r'sfx\activated-101soundboards.mp3'  
+ 
 
         #---------------Variables------------------
 State = False
@@ -74,10 +73,7 @@ while running:
                 print(State)
                 playsound(StateSfx1)
                 playsound(StateSfx2)
-            elif event.button == 9:  # Laser
-                send_command('*')
-                playsound(laser)
-                playsound(activated)
+            
             #---------------------- SERVO 2 / CLAW (Up / Loosen)-----------------------    
             
 
