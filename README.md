@@ -1,5 +1,5 @@
-# Xbox-360-controller
-### The controller code for an exploration rover.
+# Xbox2Bot
+### a code for an exploration rover.
 I made this python script in order to be able to control a robot with an HC-05 bluetooth module.
 
 Said module can connect to your phone with a simple app in the google app store.
