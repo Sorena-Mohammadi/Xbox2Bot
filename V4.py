@@ -3,8 +3,6 @@ import serial
 import time
 from playsound import playsound
 
-
-
         #---------------SFX------------------
 startup = r'sfx\startup-101soundboards.mp3'
 Tplus = r'sfx\plus.wav'
@@ -17,7 +15,8 @@ activated = r'sfx\activated-101soundboards.mp3'
 
         #---------------Variables------------------
 State = False
-
+#State was used in order to set the control from drive mode to arm mode or vise versa
+#if state was false the rover would drive, however if it was true the controller would control the arm.
 
 # Replace 'COM9' with the correct port for your HC-05 module
 
